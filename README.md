@@ -7,3 +7,5 @@ wget -O /dev/null https://raw.githubusercontent.com/mitiya/speedtest/master/10mb
 mikrotik speedtest
 
 /tool fetch url="https://raw.githubusercontent.com/mitiya/speedtest/master/10mb.zip" mode=http ;/file remove "10mb.zip"
+or
+/tool fetch url="https://raw.githubusercontent.com/mitiya/speedtest/master/10mb.zip" keep-result=no
